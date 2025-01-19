@@ -18,4 +18,15 @@ window.addEventListener("load", (windowLoadEvent) => {
         document.getElementById("audio-start").currentTime = 0;
         document.getElementById("audio-end").play();
     })
+    document.getElementById("zagrat").addEventListener("touchstart",(e)=>{
+        e.preventDefault();
+        document.getElementById("audio-start").currentTime = 0;
+        document.getElementById("audio-start").play();
+    })
+    document.getElementById("zagrat").addEventListener("touchend",(e)=>{
+        e.preventDefault();
+        document.getElementById("audio-start").pause();
+        document.getElementById("audio-start").currentTime = 0;
+        document.getElementById("audio-end").play();
+    })
 });

@@ -1,6 +1,6 @@
 @font-face {
     font-family: ArefRuqaa;
-    src: url(/resources/fonts/ArefRuqaa-Bold.ttf);
+    src: url(./resources/fonts/ArefRuqaa-Bold.ttf);
 }
 
 * {
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    background: #201F1B url("/resources/images/bg-vertical.jpg") no-repeat fixed center top;
+    background: #201F1B url("./resources/images/bg-vertical.jpg") no-repeat fixed center top;
     background-size: cover;
     background-origin: border-box;
     height: 100%;
