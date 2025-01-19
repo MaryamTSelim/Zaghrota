@@ -1,0 +1,73 @@
+@font-face {
+    font-family: ArefRuqaa;
+    src: url(/resources/fonts/ArefRuqaa-Bold.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background: #201F1B url("/resources/images/bg-vertical.jpg") no-repeat fixed center top;
+    background-size: cover;
+    background-origin: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sub-container {
+    height: 80%;
+    width: 65%;
+    border: 1px solid #CE9D11;
+}
+
+.row {
+    height: 33.33%;
+    padding: 5%;
+}
+
+#title {
+    width: fit-content;
+    margin: 5% auto;
+    font-size: 1.2rem;
+    font-family: ArefRuqaa;
+    color: #CE9D11;
+}
+
+.row:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zagrat {
+    width: 80%;
+    background-color:transparent;
+    border: none;
+}
+
+#zagrat img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+
+
+}
