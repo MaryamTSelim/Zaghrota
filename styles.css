@@ -13,6 +13,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-size:62.5%;
 }
 
 .container {
@@ -54,21 +55,32 @@ body {
 }
 
 #zagrat {
-    width: 100%;
-    background-color:transparent;
+    width: 100%;   
+    height: 10rem;   
+    background: transparent url("./resources/images/btn.png") no-repeat center center;
+    background-size: cover;
     border: none;
+
 }
 
-#zagrat img {
-    height: 100%;
-    width: 100%;
-}
 
 @media only screen and (min-width: 600px) {
-    body {
-        background-color: lightblue;
+    .container {
+        background: #201F1B url("./resources/images/bg-vertical.jpg") no-repeat fixed center center;
+        background-size: cover;
+        background-origin: border-box;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-
-
+    #title {
+        width: fit-content;
+        margin: 5% auto;
+        font-size: 3rem;
+        font-family: ArefRuqaa;
+        color: #CE9D11;
+       
+    }
 }
